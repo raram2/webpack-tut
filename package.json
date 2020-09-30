@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode=none --entry=./src/index.js --output=./dist/main.js "
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^4.44.2",
