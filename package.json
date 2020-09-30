@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=none --entry=./src/index.js --output=./dist/main.js "
+  },
   "devDependencies": {
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
